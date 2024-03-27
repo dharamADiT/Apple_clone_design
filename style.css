@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html,body{
+  width: 100%;
+  height: 100%;
+} */
+
+.main{
+  width: 100%;
+  height: auto;
+  
+
+}
+nav{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 9rem;
+}
+nav .menu {
+  display: none;
+}
+
+nav .nav-brand img{
+  object-fit: cover;
+  object-position: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  
+}
+
+nav .nav-link{
+  display: flex;
+  gap: 2rem;
+  font-family: "Hind", sans-serif;
+}
+nav .nav-link a{
+text-decoration: none;
+color: black;
+/* font-size: 1rem; */
+}
+
+.cnt{
+  width: 100%;
+  /* height: 100%; */
+  padding-top: 5rem;
+
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  /* background-color: rgba(255, 0, 0, 0.377); */
+}
+.cnt .left{
+  width: 40%;
+  height: 100%;
+  /* background-color: rgba(0, 255, 255, 0.993); */
+  
+}
+.cnt .left img{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+
+  
+}
+.cnt .left h1{
+  font-size: 10rem;
+  color: rgba(197, 192, 192, 0.808);
+  line-height: 9rem;
+
+
+  /* letter-spacing: -10px; */
+}
+
+.cnt .center{
+  width: 20%;
+  height: auto;
+  /* background-color: rgb(207, 240, 23); */
+}
+.cnt .center h1{
+  font-size: 4rem;
+  /* color: rgba(243, 239, 239, 0.808); */
+  
+
+line-height:60px;
+font-weight: 900;
+margin: 2.5rem 0 1.5rem 0;
+}
+
+.cnt .center p{
+  font-size: 1rem;
+  line-height: 25px;
+  margin-bottom: 1.5rem;
+}
+.cnt .center button{
+  padding: 0.8rem 2.2rem; 
+  border-radius: 5rem;
+  background-color: transparent;
+}
+.cnt .right{
+  width: 40%;
+  height: 100%;
+  position: relative;
+  /* background-color: rgb(78, 41, 243); */
+}
+
+.cnt .right img{
+  right: 25%;
+  position: absolute;
+  width: 250px;
+  height: 500px;
+}
